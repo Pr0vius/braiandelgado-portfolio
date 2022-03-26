@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "../Components/Head";
 
 import "./App.css";
 import Providers from "../context";
@@ -13,6 +14,7 @@ import Contact from "../Components/Contact";
 function App() {
   return (
     <Providers>
+      <Head />
       <Header />
       <HeroSection />
       <About />
