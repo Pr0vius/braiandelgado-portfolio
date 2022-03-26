@@ -6,6 +6,11 @@ import Javascript from "../Components/Logos/Javascript";
 import ReactJs from "../Components/Logos/React";
 import Nodejs from "../Components/Logos/Nodejs";
 import Express from "../Components/Logos/Express";
+import profile from "../assets/img/1616855391242.jpeg";
+import curriculum from "../assets/Currículum Brian Delgado.pdf";
+import akuma from "../assets/thumbnails/as-thumbnail.png";
+import cb973 from "../assets/thumbnails/cb973-thumbnail.png";
+import hotely from "../assets/thumbnails/hotely-thumbnail.png";
 
 const data = {
   name: "Braian Delgado",
@@ -22,7 +27,8 @@ const data = {
         id: "about",
         title: "About Me",
         subtitle: "My info",
-        img: "/src/assets/img/1616855391242.jpeg",
+        img: profile,
+        cv: curriculum,
         description:
           "I'm a self-taught full stack web developer who is passionate about learning about technology and programming.",
         technologies: [
@@ -62,19 +68,19 @@ const data = {
             title: "Akuma Software",
             link: "https://akumasoftware.com",
             repository: "https://github.com/Pr0vius/akuma",
-            thumbnail: "/src/assets/thumbnails/as-thumbnail.png",
+            thumbnail: akuma,
           },
           {
             title: "Castro Barros 973",
             link: "https://castrobarros973.com.ar",
             repository: "https://github.com/Pr0vius/castrobarros973",
-            thumbnail: "/src/assets/thumbnails/cb973-thumbnail.png",
+            thumbnail: cb973,
           },
           {
             title: "Practice/ Hotely API",
             link: "https://no-country-g66-hotely.web.app/",
             repository: "https://github.com/No-Country/c3-g66-t-backend",
-            thumbnail: "/src/assets/thumbnails/hotely-thumbnail.png",
+            thumbnail: hotely,
           },
         ],
       },

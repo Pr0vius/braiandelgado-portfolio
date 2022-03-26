@@ -40,7 +40,7 @@ const HeroSection = () => {
           neon
           width="15rem"
           as="a"
-          href="/src/assets/Currículum Brian Delgado.pdf"
+          href={About.cv}
           download="Currículum Braian Delgado.pdf"
         >
           {Hero.cvBtn}
