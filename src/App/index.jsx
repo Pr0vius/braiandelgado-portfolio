@@ -1,14 +1,26 @@
-import Navbar from "../Components/Navbar";
+import React from "react";
+
+import "./App.css";
+import Providers from "../context";
+import Header from "../Components/Header";
 import HeroSection from "../Components/HeroSection";
 import Footer from "../Components/Footer";
+import About from "../Components/About";
+import Experience from "../Components/Experience";
+import Portfolio from "../Components/Portfolio";
+import Contact from "../Components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <Providers>
+      <Header />
       <HeroSection />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
       <Footer />
-    </div>
+    </Providers>
   );
 }
 
