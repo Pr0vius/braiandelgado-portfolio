@@ -9,6 +9,7 @@ import Express from "../Components/Logos/Express";
 import profile from "../assets/img/1616855391242.jpeg";
 import curriculum from "../assets/Currículum Brian Delgado.pdf";
 import akuma from "../assets/thumbnails/as-thumbnail.png";
+import akumaLogo from "../assets/AkumaOnlyLogo.svg";
 import cb973 from "../assets/thumbnails/cb973-thumbnail.png";
 import hotely from "../assets/thumbnails/hotely-thumbnail.png";
 
@@ -47,7 +48,7 @@ const data = {
         subtitle: "My skills",
         cards: [
           {
-            icon: "/src/assets/AkumaOnlyLogo.svg",
+            icon: akumaLogo,
             title: "Akuma Software",
             charge: "Freelancer",
             res: [
