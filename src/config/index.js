@@ -67,7 +67,7 @@ const data = {
         projects: [
           {
             title: "Akuma Software",
-            link: "https://akumasoftware.com",
+            link: "https://akuma-sooty.vercel.app/",
             repository: "https://github.com/Pr0vius/akuma",
             thumbnail: akuma,
           },
