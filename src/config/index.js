@@ -12,6 +12,7 @@ import akuma from "../assets/thumbnails/as-thumbnail.png";
 import akumaLogo from "../assets/AkumaOnlyLogo.svg";
 import cb973 from "../assets/thumbnails/cb973-thumbnail.png";
 import hotely from "../assets/thumbnails/hotely-thumbnail.png";
+import gameview from "../assets/thumbnails/gv-thumbnail.png";
 
 const data = {
   name: "Braian Delgado",
@@ -78,10 +79,16 @@ const data = {
             thumbnail: cb973,
           },
           {
-            title: "Practice/ Hotely API",
+            title: "Hotely",
             link: "https://no-country-g66-hotely.web.app/",
             repository: "https://github.com/No-Country/c3-g66-t-backend",
             thumbnail: hotely,
+          },
+          {
+            title: "Gameview",
+            link: "https://gameview.vercel.app/",
+            repository: "https://github.com/Pr0vius/gameview",
+            thumbnail: gameview,
           },
         ],
       },
